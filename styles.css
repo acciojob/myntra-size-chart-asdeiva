@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+
+/* table{
+    background-color: aliceblue;
+    border: 1px solid black;
+    height: fit-content;
+    width: 5px;
+} */
+table, td, th {
+    border: 1px solid black;
+    text-align: left;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse:collapse;
+  }
+  th{
+    background-color: brown;
+    color: white;
+  }
+  .row1{
+    background-color: rgb(249, 172, 172);
+    color: white;
+  }
+  .row2{
+    background-color: rgb(243, 202, 202);
+    color: black;
+  }
+  .row3{
+    background-color: rgb(183, 182, 182);
+  }
